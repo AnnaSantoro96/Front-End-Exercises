@@ -1,0 +1,46 @@
+body{
+    background-color: gainsboro;
+}
+
+.container{
+    background-color: white;
+    width:50%;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+   padding-bottom: 20px;
+    margin-top: 50px;
+
+}
+
+.post-container{
+    text-align: center;
+}
+
+.post-img{
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.post-title{
+    margin:20px 0;
+}
+
+.read-more{
+    text-decoration: none;
+    color: black;
+    background-color: gainsboro;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5x 5px 5px;
+    border-radius: 20px;
+}
+
+.read-more::before{
+    content: "📖";
+}
+
+.read-more:hover{
+    color:white;
+    background-color: black;
+}
