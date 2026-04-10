@@ -1,0 +1,68 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.pricing-container{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid grey;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+.pricing-card{
+    border: 1px solid black;
+    background-color: beige;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pricing-card:hover{
+    transform: scale(1.1);
+}
+
+h2{
+    text-align: center;
+}
+
+ul{
+    padding: 30px;
+}
+
+button{
+    background-color: goldenrod;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: silver;
+}
+
+.valid::marker{
+    content: "✓ ";
+    color: green;
+}
+
+.noValid::marker{
+    content: "✗ ";
+    color: red;
+}
+
+.pro{
+    background-color: azure;
+}
+
+.premium{
+    background-color: rgb(202, 190, 214);
+}
+
